@@ -14,7 +14,7 @@
 | --- | --- |
 | [**HanClassStudio**](https://github.com/xueyang-dev/HanClassStudio) | 国际中文教育课件制作的开源 skills 与 workflow，含 State-Evidence Kernel 教学管线 |
 | [**localize-anything**](https://github.com/xueyang-dev/localize-anything) | Agent-native 软件本地化框架：安全提取 → 翻译 → 审查 → 回写 |
-| [**MTI-Tool-for-Translation-Practice**](https://github.com/xueyang-dev/MTI-Tool-for-Translation-Practice) | AI 驱动的 CAT 翻译实践流水线：结构化 PDF 解析、术语库提取、多 LLM 路由 |
+| [**TransPraxis**](https://github.com/xueyang-dev/TransPraxis) | AI 驱动的 CAT 翻译实践流水线：结构化 PDF 解析、术语库提取、多 LLM 路由 |
 
 ## 🧰 Tech Stack
 
