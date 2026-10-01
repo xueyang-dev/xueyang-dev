@@ -1,32 +1,36 @@
-# 👋 Hi, I'm XUEYang
+# XUEYang / 薛扬
 
-[English](https://github.com/xueyang-dev/xueyang-dev/blob/main/README.en.md) · [中文](https://github.com/xueyang-dev/xueyang-dev/blob/main/README.md)
+[中文](README.md) · [English](README.en.md)
 
-> Open-source developer building AI-powered tools for education, translation, and localization.
+I build AI-native tools for real workflows, with a focus on translation, localization, and language work. I also explore tools for Chinese-language education.
 
-I build AI tools that solve real workflow problems: Chinese-language education courseware, software localization, and translation practice. Every project follows the same principles — verifiable, reusable, and language-agnostic architecture.
+## Building
 
----
+### [Folith · 译页](https://github.com/xueyang-dev/Folith)
 
-## 🚀 Featured Projects
+**Agentic Localization Workspace / 智能体本地化工作台**
 
-| Project | Description |
-| --- | --- |
-| [**HanClassStudio**](https://github.com/xueyang-dev/HanClassStudio) | Open-source skills & workflows for creating Chinese-language education courseware, powered by the State-Evidence Kernel pipeline |
-| [**localize-anything**](https://github.com/xueyang-dev/localize-anything) | Agent-native localization framework: safely extract → translate → review → apply |
-| [**MTI-Tool-for-Translation-Practice**](https://github.com/xueyang-dev/MTI-Tool-for-Translation-Practice) | AI-driven CAT pipeline: structural PDF parsing, termbase extraction, multi-LLM routing |
+For long-form translation and professional localization.
 
-## 🧰 Tech Stack
+Folith connects document parsing, terminology, translation memory (TM), agent translation, and human review in a workflow that can be paused and resumed. Quality gates and process records help translators inspect issues, keep the reasoning behind their decisions, and export traceable deliverables.
 
-`Python` · `TypeScript` · `Kotlin` · `Swift`
+[Repository](https://github.com/xueyang-dev/Folith) · [Releases](https://github.com/xueyang-dev/Folith/releases)
 
-## 🌱 Currently Working On
+## Featured Work
 
-- Maintaining **HanClassStudio**'s State-Evidence Kernel (State-first teaching pipeline)
-- Refining **localize-anything**'s localization review workflow
-- Exploring macOS desktop tools (menu bar apps, focus utilities)
+- **Folith · 译页** — My main development focus; see Building above.
+- **[HanClassStudio](https://github.com/xueyang-dev/HanClassStudio)** — AI-assisted courseware tooling for Chinese-language education. It connects material analysis, learning objectives, activities, and review to produce interactive HTML lessons and editable PPTX. It is at the internal technical validation stage; classroom validation is still pending.
 
-## 📫 Contact
+## Currently Working On
 
-- GitHub: [@xueyang-dev](https://github.com/xueyang-dev)
-- For collaboration: feel free to reach out via Issues / Discussions
+- **Folith** — My current focus is long-form translation, localization, language assets, and the workflow from review to delivery.
+
+## Tech Stack
+
+**Python** is the core: Folith uses **Streamlit** for its workspace, with **PyMuPDF** and **python-docx** for document processing. HanClassStudio uses **FastAPI** for its backend pipeline.
+
+HanClassStudio's teacher workspace uses **TypeScript, React, and Vite**.
+
+## Contact
+
+For questions, suggestions, or collaboration ideas, use [Folith Issues](https://github.com/xueyang-dev/Folith/issues) or [HanClassStudio Issues](https://github.com/xueyang-dev/HanClassStudio/issues).
