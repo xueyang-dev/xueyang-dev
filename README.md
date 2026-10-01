@@ -1,32 +1,36 @@
-# 👋 Hi, I'm XUEYang (薛扬)
+# XUEYang / 薛扬
 
-[中文](https://github.com/xueyang-dev/xueyang-dev/blob/main/README.md) · [English](https://github.com/xueyang-dev/xueyang-dev/blob/main/README.en.md)
+[中文](README.md) · [English](README.en.md)
 
-> 用 AI 构建教育、翻译与本地化工具链的开源开发者。
+我做面向真实工作流的 AI 原生工具，目前主要关注翻译、本地化与语言工作流，也在探索国际中文教育工具。
 
-我专注用 AI 解决真实工作流问题：国际中文教育课件制作、软件本地化、翻译实践。每个项目都追求「可验证、可复用、不写死」的通用架构。
+## Building
 
----
+### [Folith · 译页](https://github.com/xueyang-dev/Folith)
 
-## 🚀 Featured Projects
+**Agentic Localization Workspace / 智能体本地化工作台**
 
-| 项目 | 说明 |
-| --- | --- |
-| [**HanClassStudio**](https://github.com/xueyang-dev/HanClassStudio) | 国际中文教育课件制作的开源 skills 与 workflow，含 State-Evidence Kernel 教学管线 |
-| [**localize-anything**](https://github.com/xueyang-dev/localize-anything) | Agent-native 软件本地化框架：安全提取 → 翻译 → 审查 → 回写 |
-| [**TransPraxis**](https://github.com/xueyang-dev/TransPraxis) | AI 驱动的 CAT 翻译实践流水线：结构化 PDF 解析、术语库提取、多 LLM 路由 |
+面向长文档翻译与专业本地化。
 
-## 🧰 Tech Stack
+Folith 把文档解析、术语管理、翻译记忆（TM）、Agent 翻译和人工审校串成可中断、可恢复的工作流。交付前的质量门禁与过程记录，让译者能检查问题、保留决策依据，并导出可追溯的成果。
 
-`Python` · `TypeScript` · `Kotlin` · `Swift`
+[Repository](https://github.com/xueyang-dev/Folith) · [Releases](https://github.com/xueyang-dev/Folith/releases)
 
-## 🌱 Currently Working On
+## Featured Work
 
-- 维护 **HanClassStudio** 的 State-Evidence Kernel（State-first 教学管线）
-- 完善 **localize-anything** 的本地化审查工作流
-- 探索 macOS 桌面工具（菜单栏应用、专注工具）
+- **Folith · 译页** — 当前主要开发项目，详见上方 Building。
+- **[HanClassStudio](https://github.com/xueyang-dev/HanClassStudio)** — 面向国际中文教育的 AI 辅助课件工具，将教材分析、教学目标、活动和审校连接起来，生成 HTML 互动课件与可编辑 PPTX。当前处于内部技术验证阶段，真实教学验证尚待开展。
 
-## 📫 Contact
+## Currently Working On
 
-- GitHub: [@xueyang-dev](https://github.com/xueyang-dev)
-- 技术交流与合作：欢迎通过项目 Issue / Discussion 联系
+- **Folith** — 当前重心是长文档翻译、本地化、语言资产与审校交付工作流。
+
+## Tech Stack
+
+以 **Python** 为主：Folith 使用 **Streamlit** 构建工作台，配合 **PyMuPDF** 与 **python-docx** 处理文档；HanClassStudio 使用 **FastAPI** 组织后端流水线。
+
+HanClassStudio 的教师工作台使用 **TypeScript、React 和 Vite**。
+
+## Contact
+
+问题、建议与合作想法，欢迎通过 [Folith Issues](https://github.com/xueyang-dev/Folith/issues) 或 [HanClassStudio Issues](https://github.com/xueyang-dev/HanClassStudio/issues) 交流。
