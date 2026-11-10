@@ -1,36 +1,41 @@
-# XUEYang / 薛扬
+<div align="center">
 
-[中文](README.md) · [English](README.en.md)
+# Hi, I'm XUEYang 👋
 
-我做面向真实工作流的 AI 原生工具，目前主要关注翻译、本地化与语言工作流，也在探索国际中文教育工具。
+**Indie developer building AI-native tools for language, creativity, and real-world work.**
 
-## Building
+*I believe great ideas deserve to travel beyond language barriers.*
+
+[Explore Folith](https://github.com/xueyang-dev/Folith) · [Find me on X](https://x.com/xueyang2216) · [中文](README.zh-CN.md)
+
+</div>
+
+---
+
+## What I'm building
 
 ### [Folith · 译页](https://github.com/xueyang-dev/Folith)
 
-**Agentic Localization Workspace / 智能体本地化工作台**
+**Make every creation global.**
 
-面向长文档翻译与专业本地化。
+Folith is an **open-source, AI-native desktop translation workspace** built for long documents and professional localization. It connects whole-document context, terminology, translation memory, model-assisted translation, human review, and traceable delivery in one workflow.
 
-Folith 把文档解析、术语管理、翻译记忆（TM）、Agent 翻译和人工审校串成可中断、可恢复的工作流。交付前的质量门禁与过程记录，让译者能检查问题、保留决策依据，并导出可追溯的成果。
+The idea is simple: **let AI handle the repetitive work without taking important language decisions away from people.**
 
-[Repository](https://github.com/xueyang-dev/Folith) · [Releases](https://github.com/xueyang-dev/Folith/releases)
+[**Explore the project**](https://github.com/xueyang-dev/Folith) · [Download the latest release](https://github.com/xueyang-dev/Folith/releases/latest) · [Watch the demo](https://github.com/user-attachments/assets/28519895-b8d0-415a-86f9-6a85635901a8)
 
-## Featured Work
+### [HanClassStudio](https://github.com/xueyang-dev/HanClassStudio)
 
-- **Folith · 译页** — 当前主要开发项目，详见上方 Building。
-- **[HanClassStudio](https://github.com/xueyang-dev/HanClassStudio)** — 面向国际中文教育的 AI 辅助课件工具，将教材分析、教学目标、活动和审校连接起来，生成 HTML 互动课件与可编辑 PPTX。当前处于内部技术验证阶段，真实教学验证尚待开展。
+An experimental project exploring AI-assisted teaching workflows and courseware for Chinese-language education. Currently under technical validation.
 
-## Currently Working On
+## What interests me
 
-- **Folith** — 当前重心是长文档翻译、本地化、语言资产与审校交付工作流。
+I work at the intersection of **software engineering, AI, and language** — especially tools that make complex, multi-step work more reliable and accessible.
 
-## Tech Stack
+**Areas:** AI-native product design · document engineering · cross-platform desktop apps · localization · human-in-the-loop workflows
 
-以 **Python** 为主：Folith 使用 **Streamlit** 构建工作台，配合 **PyMuPDF** 与 **python-docx** 处理文档；HanClassStudio 使用 **FastAPI** 组织后端流水线。
+**Tools:** Python · PySide6 / Qt · TypeScript · React · model APIs
 
-HanClassStudio 的教师工作台使用 **TypeScript、React 和 Vite**。
+## Let's connect
 
-## Contact
-
-问题、建议与合作想法，欢迎通过 [Folith Issues](https://github.com/xueyang-dev/Folith/issues) 或 [HanClassStudio Issues](https://github.com/xueyang-dev/HanClassStudio/issues) 交流。
+Interested in open-source collaboration, localization, document tools, or building useful AI products? Feel free to reach out on [X](https://x.com/xueyang2216) or open a discussion through [Folith Issues](https://github.com/xueyang-dev/Folith/issues).
